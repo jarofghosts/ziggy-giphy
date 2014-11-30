@@ -1,0 +1,27 @@
+{
+  "name": "ziggy-giphy",
+  "version": "1.0.0",
+  "description": "gifs for ziggy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jarofghosts/ziggy-giphy.git"
+  },
+  "keywords": [
+    "ziggy",
+    "gifs"
+  ],
+  "author": "jesse keane <me@jessekeane.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jarofghosts/ziggy-giphy/issues"
+  },
+  "homepage": "https://github.com/jarofghosts/ziggy-giphy",
+  "dependencies": {
+    "concat-stream": "^1.4.7",
+    "hyperquest": "^1.0.1"
+  }
+}
