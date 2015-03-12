@@ -3,7 +3,7 @@ var url = require('url')
 var concat = require('concat-stream')
   , request = require('hyperquest')
 
-var gifSearch = /\!g(if)?\s*(.*?)?$/
+var gifSearch = /^\!g(if)?\s*(.*?)?$/
 
 giphy.help = '!gif <searchterm> - random gif of <searchterm>\n!gif - random gif'
 
