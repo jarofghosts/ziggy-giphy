@@ -45,7 +45,7 @@ function giphy(ziggy, settings) {
       var gifUrl
 
       try {
-        data = JSON.parse(data)
+        data = JSON.parse(data) || {}
       } catch(e) {
         return ziggy.say(channel, 'BZZT. Something went wrong')
       }
